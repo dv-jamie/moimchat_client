@@ -1,0 +1,46 @@
+.login-form-wrap {
+    width: 500px;
+    margin: 0 auto;
+    background: var(--sub-mint);
+}
+.home-logo {
+    margin-bottom: 48px;
+    padding-top: 180px;
+}
+.home-logo > img {
+    margin: 0 auto;
+    height: 30px;
+}
+.input-row {
+    width: 100%;
+    height: 50px;
+    margin: 11px 0;
+    padding: 0 15px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+    line-height: 50px;
+}
+.input-row > label {
+    display: inline-block;
+    width: 20%;
+}
+.input-row > input {
+    width: 80%;
+    border: none;
+    background: none;
+}
+.input-row > input:focus {
+    outline: none;
+}
+.login-form > button {
+    width: 100%;
+    height: 50px;
+    margin-top: 11px;
+    border: 0;
+    border-radius: 4px;
+    background: #00aead;
+    color: #fff;
+    cursor: pointer;
+}
